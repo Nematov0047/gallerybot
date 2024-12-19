@@ -1,0 +1,21 @@
+{
+  "name": "gallery_bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "pm2 start app.js",
+    "stop": "pm2 stop app.js",
+    "restart": "pm2 restart app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@grammyjs/conversations": "^1.2.0",
+    "dotenv": "^16.4.7",
+    "grammy": "^1.33.0",
+    "mongoose": "^8.9.2",
+    "pm2": "^5.4.3"
+  }
+}
